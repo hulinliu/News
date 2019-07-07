@@ -1,0 +1,13 @@
+<Context>
+<Resource  
+		name="jdbc/News_chapter_5"  
+		auth="Container"  
+		type="javax.sql.DataSource"  
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"  
+		url="jdbc:sqlserver://localhost:1433;databaseName=newsDB"  
+		username="sa"  
+		password="sa"  
+		maxActive="20"  
+		maxIdle="10"  
+		maxWait="10000" />
+</Context>

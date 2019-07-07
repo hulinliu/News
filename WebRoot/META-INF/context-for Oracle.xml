@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context reloadable = "true">
+<Resource name="jdbc/newsDS"
+      type="javax.sql.DataSource"
+      maxActive="4"
+      maxIdle="2"
+      username="scott"
+      maxWait="5000"
+      driverClassName="oracle.jdbc.OracleDriver"
+      password="tiger"
+      url="jdbc:oracle:thin:@127.0.0.1:1521:ORCL"/>
+</Context> 
